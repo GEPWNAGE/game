@@ -3,4 +3,16 @@
 We want to create a new GEPWNAGE Agile Multimedia Experience for Study
 Association GEWIS, to improve synergy with our activities.
 
-The proof of concept will be used for the upcoming Just Dance activity.
+The proof of concept will be used for the upcoming Just Dance activity. This
+will be a DDR-like engagement experience.
+* Goals
+- Build a GEPWNAGE Agile Multimedia Experience
+- Primarily usable from mobile devices to increase engagement among users.
+- Keep the project simple to run and portable, a simple clone, ~npm install~ and ~npm start~
+  should be enough for all components to run them. We do not want to rely on
+  database servers or things like that.
+* Architecture
+This project will have three components: a server, a phone client and a screen
+client. The screen client will run on the Multimedia screens at GEWIS. While the
+phone client will be loaded by users on their own devices. Both will connect to
+the server using [[https://socket.io][socket.io]].
