@@ -1,0 +1,6 @@
+#+TITLE: GEPWNAGE Agile Multimedia Experience
+* Idea
+We want to create a new GEPWNAGE Agile Multimedia Experience for Study
+Association GEWIS, to improve synergy with our activities.
+
+The proof of concept will be used for the upcoming Just Dance activity.
