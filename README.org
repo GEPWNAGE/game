@@ -16,3 +16,10 @@ This project will have three components: a server, a phone client and a screen
 client. The screen client will run on the Multimedia screens at GEWIS. While the
 phone client will be loaded by users on their own devices. Both will connect to
 the server using [[https://socket.io][socket.io]].
+
+When a screen loads its client, it will display a timer, counting down and
+waiting for players. When the game starts, phone clients will have four buttons
+available, corresponding with the signs flowing around on the screen.
+* Challenges
+- There are multiple screens at GEWIS. Multiple may have the screen client loaded
+  at the same time. This needs to be handled gracefully.
