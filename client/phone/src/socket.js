@@ -1,5 +1,5 @@
 import io from 'socket.io-client';
-import createEmitAction from 'common/createEmitAction';
+import createEmitAction from '@gepwnage-game/client-common/createEmitAction';
 
 const serverUrl = 'http://localhost:3030';
 const namespace = 'phone';
