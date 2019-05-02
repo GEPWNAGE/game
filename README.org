@@ -8,7 +8,7 @@ will be a DDR-like engagement experience.
 * Goals
 - Build a GEPWNAGE Agile Multimedia Experience
 - Primarily usable from mobile devices to increase engagement among users.
-- Keep the project simple to run and portable, a simple clone, ~npm install~ and ~npm start~
+- Keep the project simple to run and portable, a simple clone, ~yarn~ and ~yarn start~
   should be enough for all components to run them. We do not want to rely on
   database servers or things like that.
 * Architecture
@@ -23,3 +23,10 @@ available, corresponding with the signs flowing around on the screen.
 * Challenges
 - There are multiple screens at GEWIS. Multiple may have the screen client loaded
   at the same time. This needs to be handled gracefully.
+* Installation
+Make sure that ~nodejs~ and ~yarn~ are installed. Run ~install.sh~ to install
+all dependencies.
+
+Note: ~install.sh~ and ~run.sh~ are wrappers for running ~yarn~ and ~yarn start~
+in their respective directories. Feel free to directly run those instead, the
+scripts are simply there to comfortably run everything quickly.
